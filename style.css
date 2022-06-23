@@ -1,0 +1,97 @@
+
+header {
+    text-align: center;
+    background-color: #B81106;
+    padding: 25pt;
+    margin-bottom: 2%;
+  }
+   
+  header a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color: rgba(248, 124, 124, 0.966); /* Mudando a cor de fundo quando passo o mouse em cima do icone  */
+}
+
+h1{
+    font-family: arial;
+}
+
+p{
+    font-family: arial;
+}
+
+img{
+    width: 300px;
+}
+
+#img{
+    margin-top: 20px; /* Estilizando apenas uma imagem  */
+    width: 300px;
+}
+
+/* footer{
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}*/
+
+footer {
+    width: 100%;
+    background-color: #4e545c;
+    padding: 16px;
+    color: #e5e8e8;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0;
+    }
+
+main{
+    margin-top: 3%;
+    width: 90vh;
+    margin: auto;
+    background-color:  rgb(245, 133, 99);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(126, 1, 1), rgba(0, 0, 0, 0.932));
+}
+
+/*table {
+    border: 1px dotted black;
+}
+
+table td{
+    border: 1px dotted black;
+}*/
+
+table, tr, td, th{
+    border:#000 groove 1px;
+    width:450px;
+    padding:3px;
+    font-size:20px;
+    border-collapse:collapse;
+}
+td{
+    width:200px;
+    height:30px;
+}
+th{
+    background-color:rgb(146, 19, 2);
+    color:#FFF;
+}
+
+
